@@ -8,7 +8,7 @@
 Option | Description
 :---:|---
 src | A string that represents the src location of your icon
-type | "ROUNDED" OR "SQUARE" OR "CIRCLE
+type | "ROUNDED" or "SQUARE" or "CIRCLE
 size | A number that represents the size of the icon
 padding | A number that represents the padding of the icon
 name | A string that represents the alt name of your icon
@@ -30,7 +30,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 
 // Import the library
-import { NgxBlurIconeModule } from 'ngx-icon-blur';
+import { NgxIconBlurModule } from 'ngx-icon-blur';
 
 @NgModule({
   declarations: [
@@ -49,7 +49,7 @@ export class AppModule { }
 Once the library is imported, you can use its component in your Angular application:
 
 ```xml
-<!-- You can now use NgxBlurIcon component in app.component.html -->
+<!-- You can now use NgxIconBlur component in app.component.html -->
 <h1>
   {{title}}
 </h1>
@@ -65,7 +65,7 @@ Once the library is imported, you can use its component in your Angular applicat
 [StackBlitz Demo](https://stackblitz.com/edit/ngx-icon-blur)
 
 ## Related
-[react-icon-blur](https://github.com/JP1016/react-icon-blur)
+inspired by [react-icon-blur](https://github.com/JP1016/react-icon-blur)
 
 ## License
 

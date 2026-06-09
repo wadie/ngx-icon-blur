@@ -1,6 +1,6 @@
 {
   "name": "ngx-icon-blur",
-  "version": "1.0.3",
+  "version": "22.0.0",
   "scripts": {
     "build": "ng build ngx-icon-blur",
     "build:release": "ng build ngx-icon-blur --configuration production",

@@ -1,17 +1,13 @@
 import { NgModule } from '@angular/core';
 import { NgxIconBlurComponent } from './ngx-icon-blur.component';
-import { CommonModule } from '@angular/common';
 
 @NgModule({
-    declarations: [
+    imports: [
         NgxIconBlurComponent,
     ],
-    imports: [
-        CommonModule,
-    ],
     exports: [
-        NgxIconBlurComponent
-    ]
+        NgxIconBlurComponent,
+    ],
 })
 export class NgxIconBlurModule {
 }

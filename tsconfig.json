@@ -1,33 +1,30 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
-    "baseUrl": "./",
     "outDir": "./dist/out-tsc",
-    "sourceMap": true,
-    "declaration": false,
-    "downlevelIteration": true,
+    "strict": true,
+    "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "skipLibCheck": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
     "experimentalDecorators": true,
-    "module": "es2020",
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
     "importHelpers": true,
-    "target": "es2020",
-    "typeRoots": [
-      "node_modules/@types"
-    ],
+    "target": "ES2022",
+    "module": "ES2022",
     "lib": [
-      "es2018",
+      "ES2022",
       "dom"
-    ],
-    "paths": {
-      "ngx-icon-blur": [
-        "dist/ngx-icon-blur/ngx-icon-blur",
-        "dist/ngx-icon-blur"
-      ]
-    }
+    ]
   },
   "angularCompilerOptions": {
-    "fullTemplateTypeCheck": true,
+    "enableI18nLegacyMessageIdFormat": false,
     "strictInjectionParameters": true,
-    "enableIvy": false
+    "strictInputAccessModifiers": true,
+    "typeCheckHostBindings": true,
+    "strictTemplates": true
   }
 }
